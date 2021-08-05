@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wordWorld/static/css/main.18846c11.chunk.css",
+    "main.js": "/wordWorld/static/js/main.4de892ee.chunk.js",
+    "main.js.map": "/wordWorld/static/js/main.4de892ee.chunk.js.map",
+    "runtime-main.js": "/wordWorld/static/js/runtime-main.4666e524.js",
+    "runtime-main.js.map": "/wordWorld/static/js/runtime-main.4666e524.js.map",
+    "static/js/2.12575359.chunk.js": "/wordWorld/static/js/2.12575359.chunk.js",
+    "static/js/2.12575359.chunk.js.map": "/wordWorld/static/js/2.12575359.chunk.js.map",
+    "index.html": "/wordWorld/index.html",
+    "static/css/main.18846c11.chunk.css.map": "/wordWorld/static/css/main.18846c11.chunk.css.map",
+    "static/js/2.12575359.chunk.js.LICENSE.txt": "/wordWorld/static/js/2.12575359.chunk.js.LICENSE.txt",
+    "static/media/global.css": "/wordWorld/static/media/bgTexture.d80a5cba.png",
+    "static/media/login.0190a09b.png": "/wordWorld/static/media/login.0190a09b.png",
+    "static/media/logoBg.9f5905a4.png": "/wordWorld/static/media/logoBg.9f5905a4.png",
+    "static/media/logoTextSqu.8bfc69db.png": "/wordWorld/static/media/logoTextSqu.8bfc69db.png",
+    "static/media/reg.4ea18118.png": "/wordWorld/static/media/reg.4ea18118.png",
+    "static/media/regButton.6e6ef142.png": "/wordWorld/static/media/regButton.6e6ef142.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4666e524.js",
+    "static/js/2.12575359.chunk.js",
+    "static/css/main.18846c11.chunk.css",
+    "static/js/main.4de892ee.chunk.js"
+  ]
+}

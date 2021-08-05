@@ -1,0 +1,50 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../pic/bgTexture.png);
+}
+
+.app{
+    max-width: 62.5rem;
+    width: 95vw;
+    margin: auto;
+    height: 130rem;
+    background-color: rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 1rem 0.5rem #000000; 
+    box-shadow: 0px 0px 3rem 1rem #000000; 
+    padding: 0 0 2rem 0;
+    overflow: hidden;
+}
+
+
+
+.frontData{
+    max-width: 39rem;
+    width: 80vw;
+    height: 27rem;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 7rem;
+    padding: 1rem;
+
+}
+
+@media screen and (min-width: 62.5rem ) {
+
+    .app{
+        height: 100rem;
+    }
+
+    .frontData{
+        left: 2rem;
+        top: -25rem;
+        margin: 0 0 2rem 0;
+    }
+}

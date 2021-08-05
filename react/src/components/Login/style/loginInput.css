@@ -1,0 +1,32 @@
+.login__input{
+    width: 12rem;
+    padding: 0 1rem;
+    height: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    color: #c2903d;
+    border: 2px #c2903d solid;
+    margin: 0.2rem auto 1rem auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.login__input:focus{
+    filter: brightness(130%);
+    outline: 0;
+}
+
+.login__input-invalid{
+    -webkit-box-shadow: 0px 0px 1rem 0.3rem #ff0000; 
+    box-shadow: 0px 0px 1rem 0.3rem #ff0000; 
+}
+
+.login__label{
+    margin-top: 1rem;
+    color: #47362e;
+    font-family: 'MedievalSharp', cursive;
+    display: block;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #c2903d, 1px -1px 0 #c2903d, -1px 1px 0 #c2903d, 1px 1px 0 #c2903d;
+}
+

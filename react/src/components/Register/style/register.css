@@ -1,0 +1,54 @@
+.reg{
+    display: block;
+    width: 18.75rem;
+    margin: 2rem auto 0 auto;
+}
+
+@media screen and (min-width: 62.5rem ) {
+    .reg{
+        margin: 2rem 0 0 auto;
+    }
+}
+
+.reg__wrapper{
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+
+.reg__formBox{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 18.75rem;
+    -webkit-box-shadow: 0px 0px 20rem 20rem #000000; 
+box-shadow: 0px 0px 20rem 10rem #000000; 
+}
+
+
+.reg__picBg{
+    width: 18.75rem;
+
+}
+
+.reg__form{
+    position: absolute;
+    top: 3rem;
+    width: 18.75rem;
+    margin: auto;
+}
+
+
+
+
+.reg__btnBox{
+    margin-top: 2rem;
+    text-align: center;
+}
+

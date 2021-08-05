@@ -1,0 +1,93 @@
+.reg__btn{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 4px solid #272524;
+    color: #c2903d;
+    font-family: 'MedievalSharp', cursive;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.reg__btn:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+    background: rgba(255, 255, 255, 0.15);
+    color: #d48402;
+}
+
+.reg__btn-notValid{
+    opacity: 0.6;
+    cursor: not-allowed;
+    margin-bottom: 1rem;
+}
+.reg__btn-notValid:hover{
+    transform: scale(1);
+    transition: 300ms;
+    background: rgba(255, 255, 255, 0.15);
+    color: #c2903d;
+}
+
+.reg__btn-big{
+    height: 6rem;
+    display: block;
+    margin: auto;
+    width: 12rem;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    border: 12px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.reg__btn-big:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-box-shadow: 0px 0px 1.2rem 0.1rem #dad6ab; 
+    box-shadow: 0px 0px 1.2rem 0.1rem #dad6ab; 
+    color: #c2903d;
+}
+
+.reg__btn-exit{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    background: rgba(49, 49, 49, 0.7);
+}
+
+.reg__btn-pic{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 16rem;
+    background: none;
+    border: 0;
+    transition: 300ms;
+}
+
+.reg__btn-pic:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.reg__btn-pic img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16rem;
+    filter: brightness(70%);
+}
+
+.reg__btn-pic span{
+    position: relative;
+    top: 1.5rem;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #c2903d;
+    font-family: 'MedievalSharp', cursive;
+}
